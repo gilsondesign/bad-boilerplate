@@ -13,3 +13,9 @@ This is a boilerplate BAD design uses for all its websites
 1. Open your command window and `cd` to your project directory
 2. Type `grunt` and hit enter. The default task should execute, compiling your Sass and starting the Watch task. You will need to have this running whenever you work on a project.
 4. Code away!
+
+##Grunt TODO
+- Modernizr task
+- Toasts
+- Image optimization task
+- Other optimization
