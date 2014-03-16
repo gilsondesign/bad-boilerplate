@@ -8,6 +8,7 @@ $gutter: 24.363636px;
 $grid-columns: 12;
 $max-width: 1080px;
 
+
 $tablet:				new-breakpoint(min-width 768px max-width 1024px);
 $desktop:				new-breakpoint(min-width 1025px);
 
@@ -15,7 +16,7 @@ $desktop:				new-breakpoint(min-width 1025px);
 
 #alpha {
 	@include span-columns(1);
-	background:#ffffff;
+	background:red;
 	padding:20px;
 }
 

@@ -1,3 +1,9 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -50,4 +56,154 @@ q:before, q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+}
+
+#alpha {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 6.17215%;
+  background: red;
+  padding: 20px;
+}
+#alpha:last-child {
+  margin-right: 0;
+}
+
+#beta {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 91.4702%;
+  margin-right: 0;
+  background: #e4e4e4;
+  padding: 20px;
+}
+#beta:last-child {
+  margin-right: 0;
+}
+
+#gamma {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 14.70196%;
+  background: #ffffff;
+  padding: 20px;
+}
+#gamma:last-child {
+  margin-right: 0;
+}
+
+#delta {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 82.94039%;
+  margin-right: 0;
+  background: #e4e4e4;
+  padding: 20px;
+}
+#delta:last-child {
+  margin-right: 0;
+}
+
+#epsilon {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 23.23176%;
+  background: #ffffff;
+  padding: 20px;
+}
+#epsilon:last-child {
+  margin-right: 0;
+}
+
+#zeta {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 74.41059%;
+  margin-right: 0;
+  background: #e4e4e4;
+  padding: 20px;
+}
+#zeta:last-child {
+  margin-right: 0;
+}
+
+#eta {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 31.76157%;
+  background: #ffffff;
+  padding: 20px;
+}
+#eta:last-child {
+  margin-right: 0;
+}
+
+#theta {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 65.88078%;
+  margin-right: 0;
+  background: #e4e4e4;
+  padding: 20px;
+}
+#theta:last-child {
+  margin-right: 0;
+}
+
+#iota {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 40.29137%;
+  background: #ffffff;
+  padding: 20px;
+}
+#iota:last-child {
+  margin-right: 0;
+}
+
+#kappa {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 57.35098%;
+  margin-right: 0;
+  background: #e4e4e4;
+  padding: 20px;
+}
+#kappa:last-child {
+  margin-right: 0;
+}
+
+#lambda {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 48.82117%;
+  background: #ffffff;
+  padding: 20px;
+}
+#lambda:last-child {
+  margin-right: 0;
+}
+
+#mu {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 48.82117%;
+  margin-right: 0;
+  background: #e4e4e4;
+  padding: 20px;
+}
+#mu:last-child {
+  margin-right: 0;
 }
