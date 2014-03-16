@@ -13,6 +13,6 @@ This is a boilerplate BAD design uses for all its websites
 6. Log out of and back into Windows (to ensure the path vars have refreshed)
 
 ## How to use Grunt
-1. Open your command window and cd to your project directory
+1. Open your command window and `cd` to your project directory
 2. Type `grunt` and hit enter. The default task should execute, compiling your Sass and starting the Watch task.
 4. Code away!
