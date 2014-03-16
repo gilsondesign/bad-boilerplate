@@ -8,9 +8,8 @@ This is a boilerplate BAD design uses for all its websites
 2. Install Ruby (http://rubyinstaller.org)
 3. Be sure to check the checkbox "Add Ruby executable to your PATH"
 4. Restart your computer.
-5. Run the following commands in Command Prompt with administrator priviledges. These commands need to be run as the build service user on build servers.
- -- npm install -g grunt-cli
- -- gem install sass
+5. Run the following commands in Command Prompt with administrator priviledges: `npm install -g grunt-cli`, `gem install sass`
+
 6. Log out of and back into Windows (to ensure the path vars have refreshed)
 
 ## How to use Grunt
