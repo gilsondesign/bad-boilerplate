@@ -1,0 +1,92 @@
+// --------------------------------------------------
+// Variables
+// --------------------------------------------------
+// 11 gutters width = 267.99996
+
+$column: 67.6667px;
+$gutter: 24.363636px;
+$grid-columns: 12;
+$max-width: 1080px;
+
+$tablet:				new-breakpoint(min-width 768px max-width 1024px);
+$desktop:				new-breakpoint(min-width 1025px);
+
+
+
+#alpha {
+	@include span-columns(1);
+	background:#ffffff;
+	padding:20px;
+}
+
+#beta {
+	@include span-columns(11);
+	@include omega();
+	background:#e4e4e4;
+	padding:20px;
+}
+
+#gamma {
+	@include span-columns(2);
+	background:#ffffff;
+	padding:20px;
+}
+
+#delta {
+	@include span-columns(10);
+	@include omega();
+	background:#e4e4e4;
+	padding:20px;
+}
+
+#epsilon {
+	@include span-columns(3);
+	background:#ffffff;
+	padding:20px;
+}
+
+#zeta {
+	@include span-columns(9);
+	@include omega();
+	background:#e4e4e4;
+	padding:20px;
+}
+
+#eta {
+	@include span-columns(4);
+	background:#ffffff;
+	padding:20px;
+}
+
+#theta {
+	@include span-columns(8);
+	@include omega();
+	background:#e4e4e4;
+	padding:20px;
+}
+
+#iota {
+	@include span-columns(5);
+	background:#ffffff;
+	padding:20px;
+}
+
+#kappa {
+	@include span-columns(7);
+	@include omega();
+	background:#e4e4e4;
+	padding:20px;
+}
+
+#lambda {
+	@include span-columns(6);
+	background:#ffffff;
+	padding:20px;
+}
+
+#mu {
+	@include span-columns(6);
+	@include omega();
+	background:#e4e4e4;
+	padding:20px;
+}
