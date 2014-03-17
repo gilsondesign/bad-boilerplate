@@ -8,15 +8,70 @@ $gutter: 24.363636px;
 $grid-columns: 12;
 $max-width: 1080px;
 
+body { 
+	font-family:'Roboto', sans-serif;
+	font-size: 10px;
+	line-height:20px;
+	text-align:center;
+	
+	@include media($desktop) {
+		font-size:14px;
+	}
+}
+
 
 $tablet:				new-breakpoint(min-width 768px max-width 1024px);
 $desktop:				new-breakpoint(min-width 1025px);
+
+section {
+	@include outer-container;
+	padding-left:15px;
+	padding-right:15px;	
+	background:#BABABA;
+	line-height: 2.427em;
+	text-align: center;
+	
+		@include media($tablet) {
+			padding-left:30px;
+			padding-right:30px;
+		}	
+		@include media($desktop) {
+			padding-left:0px;
+			padding-right:0px;
+		}	
+		
+	div {
+		margin-bottom: 2em;
+		text-align: left;
+		padding: 1em;
+	}
+	
+	
+	
+}
+
+section > code, section code.block {
+display: block;
+}
+
+
+
+h3 {
+	display: block;
+	font-size: 1.17em;
+	-webkit-margin-before: 1em;
+	-webkit-margin-after: 1em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+	font-weight: bold;
+}
+
 
 
 
 #alpha {
 	@include span-columns(1);
-	background:red;
+	background:#53E2F9;
 	padding:20px;
 }
 
@@ -29,7 +84,7 @@ $desktop:				new-breakpoint(min-width 1025px);
 
 #gamma {
 	@include span-columns(2);
-	background:#ffffff;
+	background:#53E2F9;
 	padding:20px;
 }
 
@@ -42,7 +97,7 @@ $desktop:				new-breakpoint(min-width 1025px);
 
 #epsilon {
 	@include span-columns(3);
-	background:#ffffff;
+	background:#53E2F9;
 	padding:20px;
 }
 
@@ -55,7 +110,7 @@ $desktop:				new-breakpoint(min-width 1025px);
 
 #eta {
 	@include span-columns(4);
-	background:#ffffff;
+	background:#53E2F9;
 	padding:20px;
 }
 
@@ -68,7 +123,7 @@ $desktop:				new-breakpoint(min-width 1025px);
 
 #iota {
 	@include span-columns(5);
-	background:#ffffff;
+	background:#53E2F9;
 	padding:20px;
 }
 
@@ -81,7 +136,7 @@ $desktop:				new-breakpoint(min-width 1025px);
 
 #lambda {
 	@include span-columns(6);
-	background:#ffffff;
+	background:#53E2F9;
 	padding:20px;
 }
 
@@ -91,3 +146,10 @@ $desktop:				new-breakpoint(min-width 1025px);
 	background:#e4e4e4;
 	padding:20px;
 }
+
+.zero {
+	div#alpha, div#beta {
+			@include span-columns(6);
+		}
+}
+
