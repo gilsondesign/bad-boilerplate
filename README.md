@@ -11,7 +11,7 @@ This is a boilerplate BAD design uses for all its websites
 
 ## How to use Grunt
 1. Open your command window and `cd` to your project directory
-2. Type 'npm install' and hit enter. This will create a node_modules folder with everything found inside of your package.json file.
+2. Type `npm install` and hit enter. This will create a node_modules folder with everything found inside of your package.json file.
 2. Type `grunt` and hit enter. The default task should execute, compiling your Sass and starting the Watch task. You will need to have this running whenever you work on a project.
 4. Code away!
 
