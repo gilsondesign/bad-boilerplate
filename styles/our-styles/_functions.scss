@@ -1,0 +1,16 @@
+// Outputs a @warn message to the console
+@function throw($message) {
+    @warn $message + ' Property omitted.'; // Null values are always omitted from the compiled stylesheet
+    @return null;
+}
+
+//Friendly color naming with Sass map
+@function palette($palette, $tone: 'base') {
+    @if map-get($palettes, $palette) {
+        @if map-get(map-get($palettes, $palette), $tone){
+            @return map-get(map-get($palettes, $palette), $tone);
+        }
+        @return throw("The tone '#{$tone}' is not defined in the #{$palette} map, located inside of the $palettes map.");
+    }
+    @return throw("The color '#{$palette}' is not defined in the $palettes map.");
+}
